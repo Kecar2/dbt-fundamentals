@@ -1,3 +1,3 @@
 select * 
 
-from raw.stripe.payment
+from {{source('jaffle_shop', 'payments')}}
